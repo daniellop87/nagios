@@ -19,7 +19,7 @@ Usage
 -----
 
 ```bash
-python check_upgrade.py <device_address> <port> <community> <release> [-v]
+python check_mikrotik_firmware.py <device_address> <port> <community> <release> [-v]
 ```
 
 - `device_address`: IP address of the MikroTik device.
