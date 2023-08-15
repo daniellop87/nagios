@@ -43,3 +43,7 @@ The script performs the following steps:
 python check_upgrade.py 192.168.1.1 161 public stable
 ```
 This command will check the installed version of RouterOS on the device with IP address 192.168.1.1, SNMP port 161, community public, and release branch stable.
+
+## Acknowledgements
+
+This script was inspired by the code created by https://github.com/x70b1/check_routeros-upgrade. Their work served as a foundation and inspiration for the development of this script.
