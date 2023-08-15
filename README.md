@@ -40,7 +40,7 @@ The script performs the following steps:
 ## Examples
 
 ```bash
-python check_upgrade.py 192.168.1.1 161 public stable
+python check_mikrotik_firmware.py 192.168.1.1 161 public stable
 ```
 This command will check the installed version of RouterOS on the device with IP address 192.168.1.1, SNMP port 161, community public, and release branch stable.
 
