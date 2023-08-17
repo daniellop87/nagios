@@ -26,9 +26,9 @@ def get_latest_versions():
         tab_tree_name = ""
         if tab_tree_id == "1":
             tab_tree_name = "Testing"
-        elif tab_tree_id == "2":
-            tab_tree_name = "Long-term"
         elif tab_tree_id == "3":
+            tab_tree_name = "Long-term"
+        elif tab_tree_id == "2":
             tab_tree_name = "Stable"
         elif tab_tree_id == "4":
             tab_tree_name = "Development"
